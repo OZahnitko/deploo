@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
         <h1 style={{ color: "pink" }}>Fuck the pigs!</h1>
+        <h2 style={{ color: "pink" }}>Sooie!</h2>
       </header>
     </div>
   );

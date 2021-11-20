@@ -26,3 +26,5 @@ jobs:
           context: .
           push: true
           tags: ozahnitko/deploo:latest
+          cache-from: type=registry,ref=user/app:latest
+          cache-to: type=inline
