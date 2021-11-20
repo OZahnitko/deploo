@@ -1,6 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -18,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <h1 style={{ color: "pink" }}>Fuck the pigs!</h1>
       </header>
     </div>
   );

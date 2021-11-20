@@ -1,0 +1,11 @@
+version: "3"
+services:
+  deploo:
+    build: ./
+    ports:
+      - "3000:3000"
+    networks:
+      - deploo
+networks:
+  deploo:
+    driver: bridge
